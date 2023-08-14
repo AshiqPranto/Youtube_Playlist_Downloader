@@ -6,8 +6,10 @@ import re
 
 pl = Playlist("https://www.youtube.com/playlist?list=PLySKRj7KSLYgS9jVyonZTFpiYkIzZXF2-")
 
-savePath = "/home/pranto/Desktop/Youtube_download_mp3"
+#Mention the folder path where you want to download videos
+savePath = "D:\Pranto\GitHub\Youtube_download_mp3\store"
 
+#Mention the start and end video numbers of that playlist in 0-based index
 start = 0
 end = 11
 
